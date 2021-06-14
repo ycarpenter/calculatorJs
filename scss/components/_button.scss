@@ -1,0 +1,17 @@
+.container>button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid $text-color;
+  background-color: $bg-color;
+  color: $text-color;
+
+  &:hover {
+    background-color: $bg-hover;
+  }
+}
+
+.button {
+  &__equals {
+    grid-row: span 2;
+  }
+}

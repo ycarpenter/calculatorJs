@@ -1,0 +1,34 @@
+body {
+  background: $bg-body;
+  color: $text-color;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 5rem);
+  grid-template-rows: minmax(6rem, auto) repeat(5, 5rem);
+  background-color: $bg-color;
+}
+
+.screen {
+  grid-column: 1 / -1;
+  background: $bg-screen;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0.5rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.operand {
+
+  &__previous,
+  &__current {
+    font-size: 1.5rem
+  }
+}

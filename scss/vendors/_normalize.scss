@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  box-shadow: none;
+}
+
+html {
+  line-height: 1.15;
+  font-size: 20px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: none;
+}
+
+button:focus,
+button:hover,
+button:active {
+  outline: none;
+}
